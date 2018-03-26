@@ -1,0 +1,66 @@
+.question
+ background: url(../img/wings-bg.png) no-repeat center
+ text-align: center
+ padding-top: 2.75rem
+ &-subtitle
+  font-size: 1.375rem
+  line-height: 52px
+ &-content
+  display: inline-block
+  border-radius: 10px
+  background-color: $white
+  padding: 1.875rem 3.4375rem 3.125rem
+  &__elipse
+   display: inline-block
+   font-size: 1.875rem
+   width: 60px
+   height: 60px
+   background-color: #e5e5e5
+   line-height: 2
+   border-radius: 30px
+   color: $black
+   font-weight: 700
+   margin-right: 15px 
+  &__heading
+   color: $black
+   font-size: 1.5rem
+   font-weight: 700
+   line-height: 52px
+   text-transform: uppercase
+  &-buttons
+   display: flex
+   justify-content: center
+   padding-top: 2.5rem
+  &__button
+   font-size: 1.5rem
+   font-weight: 700
+   line-height: 52px
+   text-transform: uppercase
+   color: $white
+   border: none
+   border-radius: 10px
+   background-color: $red
+   height: 80px
+   width: 250px
+   margin-right: 20px
+   cursor: pointer
+   position: relative
+   &:last-child
+    margin-right: 0
+   &:before
+    content: ""
+    position: absolute
+    width: 250px
+    height: 42px
+    background-color: #ffffff
+    opacity: 0.15
+    top: 0
+    left: 0
+    border-radius: 0px 0px 200px 200px / 0px 0px 30px 30px;
+   &:hover
+   	background-color: $black;
+    cursor: pointer;
+    color: $white
+    transition: background-color 1s ease-out;
+
+    

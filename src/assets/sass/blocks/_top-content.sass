@@ -1,0 +1,209 @@
+.top-content
+ background: url(../img/top-bg.png) no-repeat center
+.header
+ padding-top: 1.5rem
+ &-percent
+  color: $other
+  font-family: "PT Sans"
+  font-size: 1.125rem
+  font-weight: 400
+  line-height: 23.29px
+  position: relative
+  span
+   font-size: 1.5rem
+   font-weight: 700
+.first-icon
+ padding: 4px 0 5px 40px
+ &:before
+  content: ""
+  background: url(../img/icons/vector-smart-object.png) left center
+  position: absolute
+  height: 37px
+  width: 29px
+  position: absolute
+  top: 0
+  left: 0
+.second-icon
+ padding: 4px 0 5px 53px
+ &:before
+  content: ""
+  background: url(../img/icons/ok.png) left center
+  position: absolute
+  height: 37px
+  width: 42px
+  top: -3px
+  left: 0
+.top-content
+ &-heading1
+  margin: 0 auto
+  background-image: linear-gradient(to right, #f0e394 0%, #b49b52 100%)
+  color: #ffd50c
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  font-family: $big-title
+  font-size: 3.75rem
+  font-weight: 700
+  text-transform: uppercase
+ &-heading2
+  color: $white
+  font-family: $subtitle
+  font-size: 1.375rem
+  font-weight: 500
+.bulit
+ padding: 0
+ list-style: none
+ font-weight: 400
+ line-height: 20px
+ &-item
+  padding: 4px 0
+  padding-left: 32px
+  position: relative
+  margin: 8px 0 5px
+  &:before
+   content: "";
+   background-image: url(../img/icons/check.png);
+   background-repeat: no-repeat
+   background-position: left center
+   position: absolute
+   width: 24px
+   height: 24px
+   top: 0
+   left: 0
+.line
+ display: block
+ height: 1px
+ background-color: #fff
+ opacity: 0.1
+ width: 266px
+.top-content
+ &__timer
+  margin-top: 10px
+  display: flex
+  align-items: center
+  &_sub
+   font-family: $small-title
+   font-size: 1.1875rem
+   font-weight: 400
+   line-height: 1.1875rem
+   margin-left: 0.625rem
+   &:before
+.order
+ display: block
+ margin-top: 40px
+ width: 290px
+ box-shadow: 0 0 40px rgba(254, 213, 91, 0.25)
+ border-radius: 10px
+ background-color: #ffffff
+.price
+ background: url(../img/form-bg.png) no-repeat 
+ display: flex
+ padding: 17px 0 28px 22px
+ border-radius: 10px 10px 200px 200px / 10px 10px 35px 35px
+ position: relative
+ &:before
+  content: ""
+  position: absolute
+  background: url(../img/light.png) no-repeat top left
+  width: 115px
+  height: 21px
+  top: -11px
+  left: 20px
+ &_first
+  opacity: 0.3
+  font-family: $small-title
+  font-size: 1.125rem
+  font-weight: 400
+  line-height: 1
+  i
+   margin-top: 5px
+   font-size: 3rem
+   text-decoration: line-through
+   font-style: normal
+   line-height: 1
+   b
+   	font-size: 1.5rem
+   	font-weight: 400
+ &_second
+  margin-left: 15px
+  font-family: $small-title
+  font-size: 1.125rem
+  font-weight: 400
+  line-height: 1
+  i
+   font-size: 3rem
+   font-style: normal
+   line-height: 1
+   font-weight: 700
+   b
+   	font-weight: 700
+.order-form
+ margin-top: 20px
+ text-align: center
+ padding-bottom: 10px
+ &__data
+  width: 255px
+  height: 55px
+  border-radius: 5px
+  border: 1px solid #e1e1e1
+  background-color: #f6f6f6
+  padding: 0 15px
+  line-height: 1
+  margin-bottom: 15px
+  &::placeholder
+   color: #929292
+   font-family: $placeholder-font
+   font-size: 14px
+   font-weight: 400
+ &__button
+  margin-top: 10px
+  border: none
+  width: 255px
+  height: 60px
+  background-image: linear-gradient(to right, #B13412 20%, #EF471A 21%, #F7491B 51%, #F02F17 71%, #EB4519 100%)
+  box-shadow: 3px 4px 25px rgba(250, 74, 27, 0.35)
+  border-radius: 5px
+  font-family: $small-title
+  font-size: 1.375rem
+  font-weight: 400
+  text-transform: uppercase
+  color: $white
+  position: relative
+  padding-left: 50px
+  cursor: pointer
+  i
+   &::before
+   position: absolute
+   height: 12px
+   width: 12px
+   border-right: 3px solid $white
+   border-top: 3px solid $white
+   top: 24px
+   left: 18px
+   transform: rotate(45deg)
+  &:hover
+   background-image: linear-gradient(to right, #B13412 20%, #B13412 100%)
+   color: #ffd50c
+   transition: 1s
+ &__subtitle
+  margin-top: 20px
+  margin-left: 5px
+  font-family: $small-title
+  font-size: 0.9375rem
+  color: $black
+  position: relative
+  // padding-left: px
+  &:before
+   content: ""
+   position: absolute
+   background-image: url(../img/icons/lock.png)
+   width: 15px
+   height: 15px
+   left: 20px
+   top: 3px	
+.subtitle
+ font-family: $small-title
+ font-size: 1.1875rem
+ margin-top: 10px
+ text-align: center
+.show-order
+ display: none
